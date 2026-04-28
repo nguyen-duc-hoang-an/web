@@ -1,0 +1,128 @@
+body{
+    background-image:url("stock-vector-casino-background-falling-golden-glowing-playing-cards-on-black-background-sparkling-hearts-2632661023.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+
+}
+.sign .in{
+    background-color: black;
+    color: #ffba69;
+   font-size: 20px;
+   border-radius: 15px;
+   
+}
+.sign .out{
+    background-color: black;
+    color: #ffba69;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.sign .in{
+    font-family: 'Courier New', Courier, monospace;
+   float: right;
+
+   margin: 10px;
+}
+/* float : right là đẩy sang phải */
+.sign .out{
+     float: right; 
+     margin-right: 10px;
+     margin: 10px;
+     font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+.sign .img{
+    
+   float: right;
+   margin-right: 28%;
+  
+}
+.sign .donate{
+     background-color: black;
+    color: #ffba69;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+h1{
+    
+    font-size: 20px;
+  
+    color: yellow;
+    padding-bottom: 10%;
+    text-align: center;
+    
+
+   
+    
+border-radius: 15px;
+}
+.haywin {
+    color: yellow;
+    background-color: rgb(75, 67, 67);
+    font-size: 25px;
+    border-radius: 15px
+    ;
+    width: 100%;
+    height: 20%;
+    float: right;
+    
+
+}
+.haywin .hay{
+  width: 50px;
+}
+.haywin{
+    text-align: center;
+    padding-top: 15px;
+    padding-left: ;
+}
+.haywin .win{
+    color: aliceblue;
+    font-size: 20px;
+}
+.submit{
+    background-color: rgb(75, 67, 67) ;
+    color: yellow;
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    padding-top: 15px;
+    border-radius: 10px;
+} .fly-star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: radial-gradient(circle, #fff, #ffd27f);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  animation: flyStar 1.2s ease-out forwards;
+  z-index: 10;
+}
+
+@keyframes flyStar {
+  0% {
+    transform: translate(-50%, -50%) scale(1) rotate(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(calc(-50% + var(--x)), calc(-50% + var(--y))) scale(0.5) rotate(var(--r));
+    opacity: 0;
+  }
+}
+h2{
+  text-align: center;
+  color: yellow;
+  margin-top: -50px;
+}
+
+
